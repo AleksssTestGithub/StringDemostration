@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <iostream>
 #include <conio.h>
 #include <Windows.h>
@@ -16,14 +16,14 @@ int main()
 	cout << firstString << endl << secondString << endl;
 
 
-	//Ââîä áåç ïðîáåëîâ
+	//Ð’Ð²Ð¾Ð´ Ð±ÐµÐ· Ð¿Ñ€Ð¾Ð±ÐµÐ»Ð¾Ð²
 	/*cin >> firstString;
 	cout << firstString << endl;
-	//Î÷èñòêà áóôåðà îò ëèøíèõ ñèìâîëîâ
+	//ÐžÑ‡Ð¸ÑÑ‚ÐºÐ° Ð±ÑƒÑ„ÐµÑ€Ð° Ð¾Ñ‚ Ð»Ð¸ÑˆÐ½Ð¸Ñ… ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð²
 	cin.ignore(INT_MAX,'\n');
 	cout << "Enter entered" << endl;*/
 	
-	//Ââîä ñ ïðîáåëàìè
+	//Ð’Ð²Ð¾Ð´ Ñ Ð¿Ñ€Ð¾Ð±ÐµÐ»Ð°Ð¼Ð¸
 	getline(cin, firstString);
 	cout << firstString << endl;
 
@@ -51,10 +51,10 @@ int main()
 		cout << firstString[i] << endl;
 	}
 
-	//Ïîëó÷åíèå ìàññèâà ñèìâîëîâ (êàê â Ñ)
+	//ÐŸÐ¾Ð»ÑƒÑ‡ÐµÐ½Ð¸Ðµ Ð¼Ð°ÑÑÐ¸Ð²Ð° ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð² (ÐºÐ°Ðº Ð² Ð¡)
 	firstString.c_str();
 
-	//Ïðîâåðêà íà ïóñòîòó. True - ïóñòàÿ ñòðîêà
+	//ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° Ð½Ð° Ð¿ÑƒÑÑ‚Ð¾Ñ‚Ñƒ. True - Ð¿ÑƒÑÑ‚Ð°Ñ ÑÑ‚Ñ€Ð¾ÐºÐ°
 	//firstString.empty();
 
 	cout << firstString.length() << endl << firstString.capacity() << endl;

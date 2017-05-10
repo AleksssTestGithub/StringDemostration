@@ -1,4 +1,4 @@
-#include <string.h>
+п»ї#include <string.h>
 #include <stdlib.h>
 #include <iostream>
 #include <conio.h>
@@ -8,9 +8,9 @@ using namespace std;
 int main()
 {
 	char firstString[21] = "First String";
-	//firstString = "AnotherFirstString"; - не работает
+	//firstString = "AnotherFirstString"; - РЅРµ СЂР°Р±РѕС‚Р°РµС‚
 
-	//Присвоение
+	//С•СЂРёСЃРІРѕРµРЅРёРµ
 	//strcpy(firstString, "Another First String");
 	strcpy_s(firstString, sizeof firstString, "Another Second Strin");
 	cout << firstString << endl;
@@ -27,15 +27,15 @@ int main()
 	double result2 = atof("12.4");
 	cout << result << endl<<result2<<endl;
 
-	//Перевод из числа в строку
+	//С•РµСЂРµРІРѕРґ РёР· С‡РёСЃР»Р° РІ СЃС‚СЂРѕРєСѓ
 	_itoa(1234, Number, 53);
 	cout << Number<<endl;
 
-	//соединение строк
+	//СЃРѕРµРґРёРЅРµРЅРёРµ СЃС‚СЂРѕРє
 	strcat(Number, firstString);
 	cout << Number<<endl;
 
-	//поиск подстроки в строке
+	//РїРѕРёСЃРє РїРѕРґСЃС‚СЂРѕРєРё РІ СЃС‚СЂРѕРєРµ
 	char fStr[] = "Sec";
 	cout<<strstr(Number, fStr)<<endl;
 
