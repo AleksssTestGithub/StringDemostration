@@ -74,9 +74,13 @@ int main()
 	int var = 123;
 	tstringstream stros;
 	stros << var;
-	cl
 
 	MessageBox(NULL, stros.str().c_str() , L"SomeCaption", MB_OK);
+
+	//Перевод из строки в числов
+	string num = "123";
+	int number = stoi(num);
+	cout << number<<endl;
 
 	_getch();
 	return 0;
